@@ -1,0 +1,137 @@
+/*Css reset*/
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+	background-image: url(training-828741_640.jpg);
+	background-size: cover;
+	color: whitesmoke;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+
+.left /* logo*/
+{
+/*	border:4px solid red;*/
+	display: inline-block;/* inline only uses space of itself block to make use of width and height */
+	position: absolute;
+	top: 10px;
+    left: 18px;
+    line-height: 20px;
+}
+
+.left img
+{
+	margin: 0px 40px;
+    filter: invert(100%);
+    width: 34px;
+
+
+}
+
+.left div
+{
+	text-align: center;
+}
+.mid /*nav bar*/
+{
+	display: block;
+	margin: 14px auto;/*to bring it to center auto+width*/
+	width: 50%;
+/*	border:4px solid green;*/
+
+	
+	
+}
+
+.right /* buttons*/
+{
+/*	border:4px solid yellow;*/
+	position: absolute;
+	top: 20px;
+    right: 9px;
+	display: inline-block;/* inline only uses space of itself block to make use of width and height */
+}
+
+.navbar
+{
+	display: inline-block;
+
+}
+
+.navbar li
+{
+	display: inline-block;
+	font-size: 18px;
+	
+}
+
+.navbar li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 10px 13px;
+}
+
+.navbar li a:hover ,.navbar li a.active
+{
+	color:blanchedalmond;
+	text-decoration: underline;
+}
+
+.btn
+{
+	margin:0px 10px;
+	color: white;
+	background-color: black;
+	padding:4px 14px;
+	border:2px solid gray;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+.btn:hover
+{
+	background-color:gray;
+	
+}
+
+.container
+{
+	padding: 45px;
+    border: 2px solid white;
+    margin: 64px auto;
+    width: 30%;
+    border-radius: 14px;
+}
+
+.container h1
+{
+	text-align: center;
+	
+	margin: -36px 0px 18px 0px;
+}
+
+.container button
+{
+	display: block;
+	margin: 10px auto;
+	width: 81%;
+}
+
+.form-group input
+{
+	font-size: 18px;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+    display: block;
+    width: 355px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 4px auto;
+    border-radius:8px ;
+
+}
